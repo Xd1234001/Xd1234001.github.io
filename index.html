@@ -1,39 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Suzuki</title>
+    <title>Simple Facebook Clone - Login</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Welcome to Suzuki</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Suzuki</a></li>
-        <li><a href="#models">Models</a></li>
-        <li><a href="#dealers">Dealers</a></li>
-      </ul>
-    </nav>
-    <section id="about">
-      <h2>About Suzuki</h2>
-      <p>Suzuki is a Japanese multinational corporation that specializes in manufacturing automobiles, four-wheel drive vehicles, motorcycles, all-terrain vehicles (ATVs), outboard marine engines, wheelchairs and a variety of other small internal combustion engines.</p>
-    </section>
-    <section id="models">
-      <h2>Models</h2>
-      <ul>
-        <li>Swift</li>
-        <li>Baleno</li>
-        <li>Vitara</li>
-        <li>S-Cross</li>
-        <li>Ertiga</li>
-      </ul>
-    </section>
-    <section id="dealers">
-      <h2>Dealers</h2>
-      <p>Find a Suzuki dealer near you:</p>
-      <form action="dealer_locator.php" method="get">
-        <label for="zipcode">Enter your zip code:</label>
-        <input type="text" id="zipcode" name="zipcode">
-        <input type="submit" value="Search">
+    <div class="container">
+      <h1>Login to Simple Facebook Clone</h1>
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
       </form>
-    </section>
+    </div>
   </body>
 </html>
