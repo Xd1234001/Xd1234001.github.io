@@ -21,40 +21,34 @@ body {
 /* Header section */
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px 20px;
   background-color: #3b5998;
   color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header h1 {
   font-size: 32px;
   font-weight: bold;
-}
-
-.header a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
+  text-align: center;
 }
 
 /* Main content section */
 .main {
   display: flex;
-  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
 }
 
-.left-col {
-  width: 30%;
-  background-color: #fff;
-  padding: 20px;
-  margin-right: 20px;
-}
-
-.right-col {
-  width: 70%;
+.left-col, .right-col {
+  width: 50%;
   background-color: #fff;
   padding: 20px;
 }
