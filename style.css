@@ -1,0 +1,93 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font family and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Main container for the page */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Main content section */
+.main {
+  display: flex;
+  margin-top: 20px;
+}
+
+.left-col {
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.right-col {
+  width: 70%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Form styles */
+.form-input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-submit {
+  background-color: #3b5998;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #2d4373;
+}
+
+/* Footer section */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #e9eaed;
+  font-size: 14px;
+}
