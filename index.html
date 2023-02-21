@@ -3,14 +3,7 @@
   <head>
     <title>Simple Facebook Clone - Login</title>
     <link rel="stylesheet" href="style.css">
-    <script>const form = document.querySelector('form');
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
-  // Call server-side login function here
-});
-    </script>
+    
   </head>
   <body>
     <div class="container">
@@ -23,5 +16,13 @@ form.addEventListener('submit', (event) => {
         <button type="submit">Login</button>
       </form>
     </div>
+    <script>const form = document.querySelector('form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+  // Call server-side login function here
+});
+    </script>
   </body>
 </html>
