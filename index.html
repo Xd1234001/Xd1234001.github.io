@@ -1,55 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Facebook Clone</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alíz Nails</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcccb;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #e74c3c;
+        }
+
+        nav {
+            background-color: #e74c3c;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .service {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <h1>Facebook</h1>
+    <header>
+        <h1>Alíz Nails</h1>
+        <p>Professzionális körmözés és szépítkezés</p>
     </header>
+    
+    <nav>
+        <a href="index.html">Kezdőlap</a>
+        <a href="szolgaltatasok.html">Szolgáltatások</a>
+        <a href="galeri.html">Galéria</a>
+        <a href="kapcsolat.html">Kapcsolat</a>
+    </nav>
 
-    <main class="main">
-      <div class="left-col">
-        <h2>Log In to Facebook</h2>
-        <form action="#" method="post">
-          <label for="email">Email or Phone</label>
-          <input type="text" id="email" class="form-input" name="email" required>
+    <div class="container">
+        <h2>Szolgáltatásaink</h2>
+        <div class="services">
+            <div class="service">
+                <img src="manikur.jpg" alt="Manikűr">
+                <h3>Manikűr</h3>
+                <p>Professzionális manikűr szolgáltatásaink.</p>
+            </div>
+            <div class="service">
+                <img src="pedikur.jpg" alt="Pedikűr">
+                <h3>Pedikűr</h3>
+                <p>Relaxáló pedikűr kezelések.</p>
+            </div>
+            <div class="service">
+                <img src="diszitett-korom.jpg" alt="Díszített körmök">
+                <h3>Díszített körmök</h3>
+                <p>Egyedi és kreatív díszített körmök készítése.</p>
+            </div>
+        </div>
+    </div>
 
-          <label for="password">Password</label>
-          <input type="password" id="password" class="form-input" name="password" required>
-
-          <button type="submit" class="form-submit">Log In</button>
-        </form>
-      </div>
-
-      <div class="right-col">
-        <h2>Create a New Account</h2>
-        <p>It's free and always will be.</p>
-        <form action="#" method="post">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" class="form-input" name="fname" required>
-
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" class="form-input" name="lname" required>
-
-          <label for="email">Email</label>
-          <input type="email" id="email" class="form-input" name="email" required>
-
-          <label for="password">Password</label>
-          <input type="password" id="password" class="form-input" name="password" required>
-
-          <button type="submit" class="form-submit">Sign Up</button>
-        </form>
-      </div>
-    </main>
-
-    <footer class="footer">
-      <p>Facebook Clone &copy; 2023</p>
+    <footer>
+        &copy; Alíz Nails 2023 Minden jog fenntartva!
     </footer>
-  </div>
 </body>
 </html>
