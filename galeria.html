@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galéria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcccb;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #e74c3c;
+        }
+
+        nav {
+            background-color: #e74c3c;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galéria</h1>
+        <p>Nézze meg munkáinkat</p>
+    </header>
+    
+    <nav>
+        <a href="#">Kezdőlap</a>
+        <a href="#">Szolgáltatások</a>
+        <a href="#">Galéria</a>
+        <a href="#">Kapcsolat</a>
+    </nav>
+
+    <div class="container">
+        <div class="gallery">
+            <img src="kep1.jpg" alt="Kép 1">
+            <img src="kep2.jpg" alt="Kép 2">
+            <img src="kep3.jpg" alt="Kép 3">
+            <img src="kep4.jpg" alt="Kép 4">
+            <img src="kep5.jpg" alt="Kép 5">
+            <img src="kep6.jpg" alt="Kép 6">
+        </div>
+    </div>
+
+</body>
+</html>
